@@ -1,0 +1,9 @@
+server:
+  port: 8443
+#  ssl:
+#    key-store: file://C:/Users/lenovo/mykeys.jks
+#    key-store-password: letmein
+#    key-password: letmein
+
+amazon:
+  associateId: lc_sec

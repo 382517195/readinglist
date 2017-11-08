@@ -1,0 +1,11 @@
+server:
+  port: 8002
+logging:
+  path: D:\Java\IdeaProjects\readinglistm\loggin
+  file: runlog2.log
+  level:
+    root: WARN
+    org.springframework.security: DEBUG
+
+amazon:
+  associateId: lc_prod

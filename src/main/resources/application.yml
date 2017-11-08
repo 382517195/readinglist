@@ -1,0 +1,16 @@
+server:
+  port: 8000
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springfr
+    username: root
+    password: qwerty
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+#  thymeleaf:
+#    cache: false
